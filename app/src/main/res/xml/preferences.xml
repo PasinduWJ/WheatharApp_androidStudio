@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="Colombo"
+        android:key="cityName"
+        android:summary="Select a city"
+        android:title="City"
+        />
+    <ListPreference
+        android:title="Temperature Unit"
+        android:summary="Select a scale"
+        android:key="unitScale"
+        android:defaultValue="metric"
+        android:entries="@array/scales"
+        android:entryValues="@array/scaleValues"/>
+</PreferenceScreen>

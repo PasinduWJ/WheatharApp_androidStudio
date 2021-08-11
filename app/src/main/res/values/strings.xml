@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="alert_title">Exit</string>
+    <string name="alert_message">Do you need to go back ?</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_cancel">CANCEL</string>
+</resources>
